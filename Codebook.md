@@ -73,3 +73,5 @@ Read data from local directory
     Relabled the dataset with gsub function
     
 5.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+The analysis file created the tidy data set, a set of variables for each activity and each subject. 10299 rows of data is split into 180 groups which includes 30 subjects and 6 activities (1 WALKING, 2 WALKING_UPSTAIRS, 3 WALKING_DOWNSTAIRS, 4 SITTING, 5 STANDING, 6 LAYING) and 66 mean and standard deviation features are averaged for each group. The resulting data table has 180 rows and 69 columns; 33 Mean variables + 33 Standard deviation variables + 1 Subject( 1 of of the 30 test subjects) + activity_name + activity_id . The tidy data set’s first row is the header containing the names for each column.
